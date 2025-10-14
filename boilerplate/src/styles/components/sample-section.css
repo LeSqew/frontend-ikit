@@ -1,0 +1,65 @@
+.sample {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px; /* расстояние между контентом и фото */
+  padding: 80px 0; /* отступы секции сверху и снизу */
+}
+
+.sample__content {
+  flex: 1;
+  max-width: 50%; /* контент занимает левую половину */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sample__title {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: var(--base-text-primary);
+}
+
+.sample__text {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--base-text-alt);
+}
+
+.sample__statistic {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.statistic-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 200px;
+}
+
+.statistic-item__value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--global-primary);
+}
+
+.statistic-item__description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--base-text-alt);
+}
+
+.sample__image {
+  flex-shrink: 0;
+  width: 460px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}

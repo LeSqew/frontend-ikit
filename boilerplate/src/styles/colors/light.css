@@ -3,4 +3,5 @@
 
   --color-primary: var(--color-white);
   --color-secondary: var(--color-black);
+  --color-bg: var(--base-bg-primary);
 }

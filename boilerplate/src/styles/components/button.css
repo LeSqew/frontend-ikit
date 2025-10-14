@@ -1,0 +1,23 @@
+.button {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  font-weight: var(--font-weight-600);
+  color: var(--color-white);
+  background-color: var(--color-primary-dark);
+  border: none;
+  border-radius: var(--border-radius-base);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button--book {
+  background-color: var(--color-primary);
+  align-self: center;
+}
+
+.button--book-xs {
+  background-color: var(--color-primary);
+  align-self: flex-end;
+}

@@ -1,0 +1,70 @@
+.headline {
+  display: flex;
+
+  /* контент слева, фото справа */
+  justify-content: space-between;
+
+  /* выравнивание по вертикали */
+  align-items: center;
+
+  /* отступ между блоками */
+  gap: 48px;
+  padding: 40px 0;
+}
+
+.headline__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 50%;
+}
+
+.headline__title {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -1.16px;
+  text-transform: capitalize;
+  color: var(--base-text-on-dark);
+}
+
+.headline__text {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--base-text-on-dark);
+}
+
+.headline__actions {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.headline__cta {
+  font-size: 14px;
+  color: var(--base-text-alt);
+}
+
+.headline__logos {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.headline__logo {
+  width: 64px;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
+.headline__photo {
+  width: 460px;
+  height: 548px;
+  object-fit: cover;
+  border-radius: 16px;
+}

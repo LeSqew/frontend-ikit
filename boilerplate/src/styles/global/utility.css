@@ -1,6 +1,6 @@
 body {
   background-color: var(--color-bg);
-  color: var(--color-secondary);
+  color: var(--color-text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

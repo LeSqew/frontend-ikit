@@ -12,3 +12,13 @@
   font-weight: 700;
   color: var(--color-primary);
 }
+
+.features__list {
+  display: flex;
+  max-width: 50%;
+}
+
+.feature {
+  display: block;
+  padding: 1%;
+}

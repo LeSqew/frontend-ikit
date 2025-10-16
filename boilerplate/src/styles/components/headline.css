@@ -44,8 +44,9 @@
 }
 
 .headline__cta {
+  text-align: center;
   font-size: 14px;
-  color: var(--base-text-alt);
+  color: var(--color-text-primmary);
 }
 
 .headline__logos {
@@ -66,5 +67,32 @@
   width: 460px;
   height: 548px;
   object-fit: cover;
-  border-radius: 16px;
+}
+
+@media (--sm-viewport) {
+  .headline__photo {
+    width: 15%;
+    height: auto;
+  }
+}
+
+@media (--md-viewport) {
+  .headline__photo {
+    width: 30%;
+    height: auto;
+  }
+}
+
+@media (--lg-viewport) {
+  .headline__photo {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media (--xl-viewport) {
+  .headline__photo {
+    width: 50%;
+    height: auto;
+  }
 }

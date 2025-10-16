@@ -13,11 +13,11 @@
 }
 
 .button--book {
-  background-color: var(--color-primary);
+  background-color: var(--color-accent);
   align-self: center;
 }
 
 .button--book-xs {
-  background-color: var(--color-primary);
+  background-color: var(--color-accent);
   align-self: flex-end;
 }

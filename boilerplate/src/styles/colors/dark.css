@@ -1,7 +1,9 @@
 :root {
   color-scheme: dark;
 
-  --color-primary: var(--global-primary);
-  --color-secondary: var(--color-white);
+  --color-text-primary: var(--base-text-on-dark);
+  --color-text-secondary: var(--color-black);
+  --color-text-alt: var(--base-label-primar);
+  --color-accent: var(--global-primary);
   --color-bg: var(--base-bg-dark);
 }

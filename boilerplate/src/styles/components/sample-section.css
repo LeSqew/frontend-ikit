@@ -19,7 +19,7 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 1.2;
-  color: var(--base-text-primary);
+  color: var(--color-text-primary);
 }
 
 .sample__text {
@@ -27,7 +27,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-  color: var(--base-text-alt);
+  color: var(--color-text-primary);
 }
 
 .sample__statistic {
@@ -47,13 +47,13 @@
 .statistic-item__value {
   font-size: 32px;
   font-weight: 700;
-  color: var(--global-primary);
+  color: var(--color-text-primary);
 }
 
 .statistic-item__description {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--base-text-alt);
+  color: var(--color-text-primary);
 }
 
 .sample__image {

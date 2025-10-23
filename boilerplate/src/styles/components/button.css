@@ -1,23 +1,20 @@
 .button {
-  font-family: var(--font-family);
-  font-size: var(--font-size-base);
-  line-height: var(--line-height-base);
-  font-weight: var(--font-weight-600);
-  color: var(--color-white);
-  background-color: var(--color-primary-dark);
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-text-primary);
+  background-color: var(--color-accent);
+  height: 56px;
+  padding: 5px 20px;
   border: none;
-  border-radius: var(--border-radius-base);
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 }
 
-.button--book {
-  background-color: var(--color-accent);
-  align-self: center;
+.button__arrow {
+  margin-left: 10px;
 }
 
-.button--book-xs {
-  background-color: var(--color-accent);
-  align-self: flex-end;
+.button--sm {
+  height: 40px;
 }

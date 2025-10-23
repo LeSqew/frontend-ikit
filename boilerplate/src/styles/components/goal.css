@@ -1,0 +1,8 @@
+.goal {
+  display: flex;
+}
+
+.goal__image {
+  display: flex;
+  flex-direction: row;
+}

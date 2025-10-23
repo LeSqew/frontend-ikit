@@ -6,4 +6,5 @@
   --color-text-alt: var(--base-label-primar);
   --color-accent: var(--global-primary);
   --color-bg: var(--base-bg-dark);
+  --color-bg-header: var(--base-bg-primary);
 }

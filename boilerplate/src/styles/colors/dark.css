@@ -7,4 +7,5 @@
   --color-accent: var(--global-primary);
   --color-bg: var(--base-bg-dark);
   --color-bg-header: var(--base-bg-primary);
+  --color-bg-secondary: var(--base-bg-secondary);
 }

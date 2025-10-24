@@ -1,0 +1,91 @@
+.footer {
+  padding: 60px 0;
+  background-color: var(--color-bg-footer);
+}
+
+.footer__title {
+  font-family: Leifa;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+  color: var(--color-text-primary);
+}
+
+.footer__h3 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.32px;
+
+  /* Base/Text On Dark */
+  color: var(--color-text-primary);
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between; /* контент по краям */
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer__left {
+  max-width: 400px;
+}
+
+.footer__text {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+  color: var(--color-text-primary);
+  margin: 15px 0 25px;
+}
+
+.footer__button {
+  margin-top: 10px;
+}
+
+.footer__right {
+  display: flex;
+  flex-wrap: wrap; /* позволяет переносить элементы */
+  justify-content: right; /* выравнивание по центру */
+  gap: 32px 25px; /* расстояние между ссылками: 20px по вертикали, 40px по горизонтали */
+  max-width: 800px; /* ограничиваем ширину, чтобы было 2 ряда */
+  margin: 0 auto; /* центрируем весь блок */
+}
+
+.footer__about {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between; /* контент по краям */
+}
+
+.footer__text2 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.25px;
+  color: var(--color-text-primary);
+  margin-top: 30px;
+  width: 387px;
+}
+
+.footer__line {
+  display: block;
+  margin: 22px auto 0; /* сверху 22px, по бокам auto — центрирует, снизу 0 */
+  max-width: 1170px; /* чтобы не выходила за контейнер */
+  width: 100%; /* адаптивность */
+  height: auto;
+}

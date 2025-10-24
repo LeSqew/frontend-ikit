@@ -1,10 +1,10 @@
 .features {
   display: flex;
   flex-direction: column;
+  padding: 110px 0;
 }
 
 .features__title {
-  margin-top: 111px;
   width: 540px;
   font-family: Inter, sans-serif;
   font-size: 52px;

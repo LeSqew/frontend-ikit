@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 48px; /* расстояние между контентом и фото */
-  padding: 80px 0; /* отступы секции сверху и снизу */
+  padding: 110px 0; /* отступы секции сверху и снизу */
 }
 
 .sample__content {
@@ -57,7 +57,4 @@
   font-weight: 400;
   line-height: 26px;
   color: var(--color-text-primary);
-}
-
-.sample__image {
 }

@@ -1,3 +1,51 @@
-.success-story__button {
-  margin: 45px;
+.success {
+  padding: 115px 0%;
+}
+
+.success__bg {
+  background-color: var(--color-bg-secondary);
+  display: flex;
+  flex-direction: row;
+
+  /* контент слева, фото справа */
+  justify-content: space-between;
+
+  /* выравнивание по вертикали */
+  align-items: center;
+}
+
+.success__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 588px;
+  margin: 119px 0% 116px 95px;
+}
+
+.success__photo {
+  width: 380px;
+  height: 420px;
+}
+
+.success__title {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.76px;
+  color: var(--color-text-secondary);
+}
+
+.success__text {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.76px;
+  color: var(--color-text-secondary);
+}
+
+.success__button {
+  margin-top: 32px;
 }
